@@ -18,5 +18,18 @@ $(function() {
 	}
 	eqH();
 	// Custom JS
+});
 
+
+
+
+$(document).ready(function(){
+	 $(".owl-carousel").owlCarousel({
+		loop: true,
+		dots: true,
+		//nav: true,
+		smartSpeed: 700,
+		items: 1,
+		
+		});
 });
